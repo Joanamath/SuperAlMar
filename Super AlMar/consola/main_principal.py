@@ -33,7 +33,7 @@ match(opcion):
                 persona2=Administrador(datos[0],datos[1],datos[2],datos[3],datos[4],datos[5],datos[6],datos[7],datos[8],datos[9],datos[10],datos[11])
                 persona2.iniAdministrador()
         else:
-            print("el Usuario o Contraseña ingresada es invalido")
+            print("El Usuario o Contraseña ingresada es invalido")
     case 2:
         datos= Registro.registro()
         datos=Usuario.agregaUsuario(datos)
@@ -45,4 +45,3 @@ match(opcion):
         elif persona.tipoUsuario==2:
             persona2=Administrador(datos[0],datos[1],datos[2],datos[3],datos[4],datos[5],datos[6],datos[7],datos[8],datos[9],datos[10],datos[11])
             persona2.iniAdministrador()
-            
