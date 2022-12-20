@@ -1,7 +1,7 @@
 
 from app_administrador import administrador
 from tkinter import  *
-from app_registro import formulario_registro
+from login_registro import registro
 
 
 #formulario_registro()

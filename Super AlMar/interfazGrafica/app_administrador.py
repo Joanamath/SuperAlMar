@@ -9,7 +9,7 @@ class administrador(Frame):
         self.ventana.title("")
         self.ventana.minsize(height=700,width=1300)
         self.ventana.geometry('1000x50+180+80')
-        self.ventana.call('wm','iconphoto',self.ventana._w,PhotoImage(file='CRUD\carrito-de-supermercado (1).png'))
+        self.ventana.call('wm','iconphoto',self.ventana._w,PhotoImage(file='Super AlMar\interfazGrafica\carrito-de-supermercado (1).png'))
 
         super().__init__()
         
@@ -139,17 +139,17 @@ class administrador(Frame):
     
     def widgets(self):
         
-        self.imagen_inicio = PhotoImage(file ='CRUD\datos.png')
-        self.imagen_menu = PhotoImage(file ='CRUD\menu.png')
-        self.imagen_datos = PhotoImage(file ='CRUD\comestibles.png')
-        self.imagen_registrar = PhotoImage(file ='CRUD\escribir.png')
-        self.imagen_actualizar = PhotoImage(file ='CRUD\Actualizar.png')
-        self.imagen_buscar = PhotoImage(file ='CRUD\eliminado.png')
-        self.imagen_ventas = PhotoImage(file ='CRUD\Recibo.png')
+        self.imagen_inicio = PhotoImage(file ='Super AlMar\interfazGrafica\datos.png')
+        self.imagen_menu = PhotoImage(file ='Super AlMar\interfazGrafica\menu.png')
+        self.imagen_datos = PhotoImage(file ='Super AlMar\interfazGrafica\comestibles.png')
+        self.imagen_registrar = PhotoImage(file ='Super AlMar\interfazGrafica\escribir.png')
+        self.imagen_actualizar = PhotoImage(file ='Super AlMar\interfazGrafica\Actualizar.png')
+        self.imagen_buscar = PhotoImage(file ='Super AlMar\interfazGrafica\eliminado.png')
+        self.imagen_ventas = PhotoImage(file ='Super AlMar\interfazGrafica\Recibo.png')
         
-        self.logo = PhotoImage(file ='CRUD\logo1.png')
-        self.imagen_uno = PhotoImage(file ='CRUD\comprar (2).png')
-        self.imagen_dos= PhotoImage(file ='CRUD\productos.png')
+        self.logo = PhotoImage(file ='Super AlMar\interfazGrafica\logo1.png')
+        self.imagen_uno = PhotoImage(file ='Super AlMar\interfazGrafica\comprar (2).png')
+        self.imagen_dos= PhotoImage(file ='Super AlMar\interfazGrafica\productos.png')
         
         self.bt_inicio = Button(self.frame_inicio, image= self.imagen_inicio, bg='black',activebackground='black', bd=0, command = self.menu_lateral)
         self.bt_inicio.grid(column=0, row=0, padx=10, pady=10)
